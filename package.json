@@ -1,0 +1,25 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "Sample App to work with CICS",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node index.js",
+    "prod": "cross-env NODE_ENV=production node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agavaqif/cicd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agavaqif/cicd/issues"
+  },
+  "homepage": "https://github.com/agavaqif/cicd#readme",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "express": "^4.17.1"
+  }
+}
