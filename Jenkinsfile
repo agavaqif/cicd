@@ -4,6 +4,7 @@ node {
     stage('Clone repository') {
         /* Cloning the Repository to our Workspace */
 
+        sh "echo SSSS"
         sh " echo ${env}"
         checkout scm
     }
