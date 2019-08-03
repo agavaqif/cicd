@@ -3,8 +3,8 @@ node {
 
     stage('Clone repository') {
         /* Cloning the Repository to our Workspace */
-        println("Bracn",env.BRANCH_NAME)
-        println(env)
+
+        sh " echo ${env.BRANCH_NAME}"
         checkout scm
     }
 
