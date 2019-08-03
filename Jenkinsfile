@@ -5,7 +5,6 @@ node {
         /* Cloning the Repository to our Workspace */
 
         sh " echo ${env}"
-        echo env
         checkout scm
     }
 
