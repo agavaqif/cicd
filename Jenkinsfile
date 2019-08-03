@@ -1,10 +1,10 @@
 node {
     def app
 
-    println(node);
     stage('Clone repository') {
         /* Cloning the Repository to our Workspace */
-
+        println("Bracn",env.BRANCH_NAME)
+        println(env)
         checkout scm
     }
 
