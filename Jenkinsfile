@@ -4,7 +4,8 @@ node {
     stage('Clone repository') {
         /* Cloning the Repository to our Workspace */
 
-        sh " echo ${env.BRANCH_NAME}"
+        sh " echo ${env}"
+        echo env
         checkout scm
     }
 
